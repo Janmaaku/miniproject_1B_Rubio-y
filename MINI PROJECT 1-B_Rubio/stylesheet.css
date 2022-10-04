@@ -1,0 +1,48 @@
+:root{
+
+    --primary-color: black;
+    --bs-body-bg: rgb(9, 8, 8);
+    --bs-body-font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+
+
+
+
+.text-decoration-none{
+    font: 800 2rem 'Montserrat';
+    background: linear-gradient(to right, #9b0606 10%, #f3f7f6 25%, #161414 75%);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 2s linear infinite;
+}
+@keyframes animate{
+    to{
+        background-position: 300% start;
+    }}
+
+
+
+/*hero section*/
+.hero-bg{
+   
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX() translateY(-50%);
+}
+.hero-text-header {
+    padding-top: 100px !important;
+  }
+  
+  .hero-section {
+    max-width: 70%;
+  }
+  
